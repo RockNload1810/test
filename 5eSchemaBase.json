@@ -1,0 +1,149 @@
+{
+  "title": "Systems Reference Document test",
+  "desc": "Dungeons and Dragons 5th Edition Systems Reference Document by Wizards of the Coast",
+  "license": "Open Gaming License",
+  "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+  "organization": "Wizards of the Coast",
+  "version": "5.1",
+  "version_number": 1,
+  "copyright": "System Reference Document 5.1 Copyright 2016, Wizards of the Coast, Inc.; Authors Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+  "url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+  "spells": [
+    {
+      "id": "acid_arrow",
+      "name": "Acid Arrow",
+      "desc": "\u003cp\u003eA shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target takes 4d4 acid damage immediately and 2d4 acid damage at the end of its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage and no damage at the end of its next turn.\u003c/p\u003e",
+      "higher_level": "\u003cp\u003eWhen you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by 1d4 for each slot level above 2nd.\u003c/p\u003e",
+      "range": "90 feet",
+      "components": [
+        "V",
+        "S",
+        "M"
+      ],
+      "material": "Powdered rhubarb leaf and an adder’s stomach.",
+      "ritual": false,
+      "duration": "Instantaneous",
+      "concentration": false,
+      "casting_time": "1 action",
+      "level": 2,
+      "school": "Evocation",
+      "class": [
+        "Druid",
+        "Wizard"
+      ]
+    }
+  ],
+  "creatures": [
+    {
+      "name": "Adult Green Dragon Test",
+      "size": "Huge",
+      "type": "dragon",
+      "alignment": "lawful evil",
+      "armor_desc": "natural armor",
+      "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature\u0027s turn. The dragon regains spent legendary actions at the start of its turn.",
+      "hit_points": 207,
+      "hit_dice": {
+        "num": 18,
+        "d": 12,
+        "+": 90
+      },
+      "strength": 23,
+      "dexterity": 12,
+      "constitution": 21,
+      "intelligence": 18,
+      "wisdom": 15,
+      "charisma": 17,
+      "dexterity_save": 6,
+      "wisdom_save": 7,
+      "charisma_save": 8,
+      "armor_class": 19,
+      "deception": 8,
+      "insight": 7,
+      "perception": 12,
+      "persuasion": 8,
+      "stealth": 6,
+      "damage_immunities": [
+        "poison"
+      ],
+      "condition_immunities": [
+        "poisoned"
+      ],
+      "speed": [
+        "40 ft.",
+        "fly 80 ft.",
+        "swim 40 ft."
+      ],
+      "languages": [
+        "Common",
+        "Draconic"
+      ],
+      "senses": [
+        "blindsight 60 ft.",
+        "darkvision 120 ft."
+      ],
+      "id": "adult_green_dragon",
+      "challenge_rating": 15,
+      "special_abilities": [
+        {
+          "name": "Amphibious",
+          "desc": "The dragon can breathe air and water.",
+          "what": []
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "desc": "If the dragon fails a saving throw, it can choose to succeed instead.",
+          "what": []
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "desc": "The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.",
+          "what": []
+        },
+        {
+          "name": "Bite",
+          "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 7 (2d6) poison damage.",
+          "what": []
+        },
+        {
+          "name": "Claw",
+          "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage.",
+          "what": []
+        },
+        {
+          "name": "Tail",
+          "desc": "Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage.",
+          "what": []
+        },
+        {
+          "name": "Frightful Presence",
+          "desc": "Each creature of the dragon\u0027s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature\u0027s saving throw is successful or the effect ends for it, the creature is immune to the dragon\u0027s Frightful Presence for the next 24 hours .",
+          "what": []
+        },
+        {
+          "name": "Poison Breath (Recharge 5-6)",
+          "desc": "The dragon exhales poisonous gas in a 60-foot cone. Each creature in that area must make a DC 18 Constitution saving throw, taking 56 (16d6) poison damage on a failed save, or half as much damage on a successful one.",
+          "what": []
+        }
+      ],
+      "legendary_actions": [
+        {
+          "name": "Detect",
+          "desc": "The dragon makes a Wisdom (Perception) check.",
+          "what": []
+        },
+        {
+          "name": "Tail Attack",
+          "desc": "The dragon makes a tail attack.",
+          "what": []
+        },
+        {
+          "name": "Wing Attack (Costs 2 Actions)",
+          "desc": "The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+          "what": []
+        }
+      ]
+    }
+  ]
+}
